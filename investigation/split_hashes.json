@@ -1,0 +1,272 @@
+[
+  {
+    "seed": 0,
+    "split": "training_pool",
+    "shape": [
+      4096,
+      16
+    ],
+    "sha256": "b2ba026786f690387cd67f431442dccaf4ea8f967be6dc7698f3159d6d8cd12a"
+  },
+  {
+    "seed": 0,
+    "split": "validation",
+    "shape": [
+      1024,
+      16
+    ],
+    "sha256": "de6e1367660e110d6557417e0a5e224045dc7053043a6df196822d96c063a3ad"
+  },
+  {
+    "seed": 0,
+    "split": "iid",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "132a14078b87532380f8ed35572869650bf335636dd83fbce166f6ef0c226ead"
+  },
+  {
+    "seed": 0,
+    "split": "scale",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "f305a5696524b53958a52603d02285904151979a30fd8156998a56fde4c4e118"
+  },
+  {
+    "seed": 0,
+    "split": "heavy_tail",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "b4e8df2bc0c5bba338e6abc507b1882a546ac9cf2982c96ced81ae21755c6791"
+  },
+  {
+    "seed": 0,
+    "split": "correlated",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "50ec89d048b522b8ca53f33ee713d9e66b1bc8efaf22d912593dea88c25977c4"
+  },
+  {
+    "seed": 1,
+    "split": "training_pool",
+    "shape": [
+      4096,
+      16
+    ],
+    "sha256": "d18ab6c2cd22dea1d8619ac1188f9efa125a7f053cd1bae2853efc8eca888af6"
+  },
+  {
+    "seed": 1,
+    "split": "validation",
+    "shape": [
+      1024,
+      16
+    ],
+    "sha256": "be4b5c1802bc67b381c2343b358e06495a892e6bcdb06bbfa98d681459cb4e29"
+  },
+  {
+    "seed": 1,
+    "split": "iid",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "0863c3082e398597bda37d199587f37965d30caf381869c626069f1c4faf3e88"
+  },
+  {
+    "seed": 1,
+    "split": "scale",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "3143bae54a6bc1024fed719e0eef845fc7442e2e48803286d98aa1e81853b776"
+  },
+  {
+    "seed": 1,
+    "split": "heavy_tail",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "d21d09b117dbee7cb98df4faecf77c3f67a14b88c0b8432bcb580baa8e9a4a1c"
+  },
+  {
+    "seed": 1,
+    "split": "correlated",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "ac972739256d5bd9f593d79e6b3a0c4272e6cab176dd5622dce368e267ed0fbd"
+  },
+  {
+    "seed": 2,
+    "split": "training_pool",
+    "shape": [
+      4096,
+      16
+    ],
+    "sha256": "b853006b83e543cd5c056ea7155af448aeed63a453ac921ec851c3bd408ef0ac"
+  },
+  {
+    "seed": 2,
+    "split": "validation",
+    "shape": [
+      1024,
+      16
+    ],
+    "sha256": "a1c93ee248c840611d45ffa69bc66a1c68e61ef24fe897941ac936ae12ce3b1c"
+  },
+  {
+    "seed": 2,
+    "split": "iid",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "842050fd62459d983b2ef12e8596304936c30982fad665640c5a8dcad9182b4c"
+  },
+  {
+    "seed": 2,
+    "split": "scale",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "b8665dc5a90216919d5518059ab807474d6a6a20cf8cd52e73389128869a1a21"
+  },
+  {
+    "seed": 2,
+    "split": "heavy_tail",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "521bb5d70c45a2f908c1dc6935cb79de47c6909c79e0c1523717354d171f4bed"
+  },
+  {
+    "seed": 2,
+    "split": "correlated",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "8523cb2f1e6e55b77d675c474ef7e429c293cdb7e2e0cc532abd1844eacf0a51"
+  },
+  {
+    "seed": 3,
+    "split": "training_pool",
+    "shape": [
+      4096,
+      16
+    ],
+    "sha256": "9bb702a2c3f306601852f82a0a347175156c2c46d50db9f64a6c629eff3ca706"
+  },
+  {
+    "seed": 3,
+    "split": "validation",
+    "shape": [
+      1024,
+      16
+    ],
+    "sha256": "14a01c0e90679767f81c8dfe446ccd73e3887437dc91eb0a3145abff6f8f20e6"
+  },
+  {
+    "seed": 3,
+    "split": "iid",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "204c592668b7ed9f29423914fa54b0a238ffad7e0acad8316dbf3c618f0a2c35"
+  },
+  {
+    "seed": 3,
+    "split": "scale",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "1cb30f70e2103991c1fa5be307aff615bde8bd9f7c79d5b7694eaf68bc50693e"
+  },
+  {
+    "seed": 3,
+    "split": "heavy_tail",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "3a4dd66f2b6f240dc63919ea010597f22c0c3a7113d36b3ddc4d05e9d872a2f0"
+  },
+  {
+    "seed": 3,
+    "split": "correlated",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "db8b5b389f48784562530545f361aa9f9e4ebdae41eead8a6b5a47c28ccbc5e2"
+  },
+  {
+    "seed": 4,
+    "split": "training_pool",
+    "shape": [
+      4096,
+      16
+    ],
+    "sha256": "686986a6939e5027d080814520c0b150a6d57f12e93caedbab67996df40dbd14"
+  },
+  {
+    "seed": 4,
+    "split": "validation",
+    "shape": [
+      1024,
+      16
+    ],
+    "sha256": "dd6099c634c268896b4cc571a47d2a84688fab18b790d91f2f11d041350b62c6"
+  },
+  {
+    "seed": 4,
+    "split": "iid",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "acf6a3bf4f2cec762bb1d1e3539b6e9874e5d4be8d266dcacc01175f6a19a0ae"
+  },
+  {
+    "seed": 4,
+    "split": "scale",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "096d48b7c1834a5e7257e8b08ccf6202823ca6dc4100171d87d4f9f25ae6cadb"
+  },
+  {
+    "seed": 4,
+    "split": "heavy_tail",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "bb6b92e18573555a41797bac6adc20d57f217089a9fc19b06ce3ac4918e65947"
+  },
+  {
+    "seed": 4,
+    "split": "correlated",
+    "shape": [
+      2048,
+      16
+    ],
+    "sha256": "fde9284a439c08fe6a046658ec51754be7d0a909650ac19dd11cb204e8bb1654"
+  }
+]

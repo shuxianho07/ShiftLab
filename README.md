@@ -72,10 +72,24 @@ Exact numerical algorithms remain the appropriate practical tool for computing t
 
 Limitations include a small fixed task set, one architecture, three seeds, approximate parameter matching, and unmatched training compute. Shift distributions change multiple properties at once. Using test findings to revise the architecture would require a fresh final test suite. No novelty or publication claim is made.
 
+## Follow-up investigation: when does sharing help?
+
+The completed study varies training-set size (256 / 1,024 / 4,096) and four task groups across five seeds. It compares shared networks against both equal-width and approximately parameter-matched specialists, plus ridge regression. Each fit uses only its own training subset for normalization; evaluation uses a common training-pool reference scale. Nested training samples and independent, fixed validation/test splits make the data-efficiency comparisons paired.
+
+```sh
+OPENBLAS_NUM_THREADS=1 python investigate.py
+# Optional figures; requires matplotlib:
+python plot_investigation.py
+```
+
+Read the [plain-language findings](investigation/FINDINGS.md), [fixed experiment plan](STUDY_PLAN.md), [follow-up report](investigation/REPORT.md), and [paired comparisons](investigation/summary.csv). The [learning curves](investigation/learning_curves.png) show seed variability. These follow-up test splits use a new random namespace, separate from the original benchmark. This study is exploratory; the groups were chosen before its runs, but the question was motivated by earlier results.
+
+No follow-up checkpoints are saved; the exact configuration, source, environment, split hashes, model budgets, and full metrics support rerunning the study. Original benchmark checkpoints remain available under `results/`.
+
 ## Research extensions
 
-1. Generate learning curves and add compute-matched optimization budgets.
+1. Add compute-matched optimization budgets to the completed data-efficiency study.
 2. Compare permutation-invariant representations for symmetric functions, while retaining order-sensitive representations for drawdown and trend.
-3. Ablate combinations of tasks to identify positive and negative transfer.
+3. Use a fresh benchmark to validate hypotheses suggested by the completed task-group ablations.
 4. Test low-rank adaptation of shared representations on new functions.
 5. Introduce a separate controlled shift-validation suite for robust model selection.

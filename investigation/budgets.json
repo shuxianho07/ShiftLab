@@ -1,0 +1,4832 @@
+[
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.15356869900006132
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1000,
+    "training_seconds": 0.14941521899982035
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.1495917450001798
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 500,
+    "training_seconds": 0.1639780609993977
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 800,
+    "training_seconds": 0.15962738200050808
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.16341145699971094
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.1524602990002677
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09082068400039134
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 450,
+    "training_seconds": 0.08967014900008508
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 600,
+    "training_seconds": 0.09384365099958814
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.09063911000066582
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.09381723000024067
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.08839940300003946
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.1451277559999653
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.10355415699996229
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 550,
+    "training_seconds": 0.10438190900003974
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.09762309399957303
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.14362360300037835
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.10059383800034993
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10795073100052832
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.10105278099945281
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.1403499340003691
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11609128500003862
+  },
+  {
+    "seed": 0,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.11462439099977928
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15286999799991463
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14457905600011145
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14932647099976748
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1486154180001904
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14574925299984898
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.14565688300081092
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.14426449199982017
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09014301599927421
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08940142800020112
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09022262399957981
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09051919299963629
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 600,
+    "training_seconds": 0.09105519799959438
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1050,
+    "training_seconds": 0.09521707899966714
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14544299400040472
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10443977799968707
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09947860800002672
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 350,
+    "training_seconds": 0.11357312400014052
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 650,
+    "training_seconds": 0.14495936700041057
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11805726800048433
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10007040700020298
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 650,
+    "training_seconds": 0.09801189600057114
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.13445529300042836
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10921172399957868
+  },
+  {
+    "seed": 0,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 950,
+    "training_seconds": 0.10997773399958533
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1530023949999304
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14461326800028473
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1441929259999597
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14570856199952686
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1457597379994695
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14570869300041522
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14603168800022104
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09300015000007988
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09246532700035459
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0909758679999868
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09003269299955718
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09008718499990209
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09697807300017303
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.146818784000061
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0985879540003225
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09976978600025177
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10018812799989973
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14946314600001642
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10128630399958638
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09722607799994876
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1077014889997372
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14132088699989254
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1115880820007078
+  },
+  {
+    "seed": 0,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10951266199936072
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.14910792499995296
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 500,
+    "training_seconds": 0.14421578499968746
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.1414986649997445
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 550,
+    "training_seconds": 0.14582389000042895
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14396130000022822
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.1455797819999134
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.14659488300003432
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08902840900009323
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.09013829299965437
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08892751700022927
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08958982500007551
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.09065225899939833
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.08882987899960426
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.14344100499965862
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.09832600499976252
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 800,
+    "training_seconds": 0.0984084100000473
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.10151615799986757
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.14441487499971117
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.10132992699982424
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10372419899977103
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.10013593599978776
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.1366327440000532
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 950,
+    "training_seconds": 0.1131934850000107
+  },
+  {
+    "seed": 1,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.11264377499992406
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.16021159599949897
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1550686170003246
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14954452299934928
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14940095399924758
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15432485200017254
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.14386215600006835
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1482817989999603
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09108925400050794
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.09149926099962613
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09057134600061545
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09003025299989531
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 400,
+    "training_seconds": 0.08950096699936694
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08994745800009696
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14539914899978612
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1000,
+    "training_seconds": 0.10198994100028358
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09889541899974574
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09952480500032834
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 600,
+    "training_seconds": 0.14282750399979705
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11406690399962827
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10428561200023978
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 600,
+    "training_seconds": 0.10354096100036259
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14619040799971117
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11866323300000658
+  },
+  {
+    "seed": 1,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.12728972800050542
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15599613699941983
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1509104329998081
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15153684400047496
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14958600200043293
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1638708439995753
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15337500700024975
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15408601599938265
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0923566009996648
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0959249829993496
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1010199130005276
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09152011500009394
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1000,
+    "training_seconds": 0.09664373399937176
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09713596700021299
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.16024240199931228
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10293795200050226
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10923166100019444
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10447203500007163
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1570762890005426
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10140659399985452
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10632789299961587
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 600,
+    "training_seconds": 0.10624584000015602
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14940212800047448
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11386358500021743
+  },
+  {
+    "seed": 1,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1140804519991434
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.15078083699972922
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 900,
+    "training_seconds": 0.14594572599980893
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.1476227140001356
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 500,
+    "training_seconds": 0.15665258900025947
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.15614979099973425
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.14842988199961837
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.15207326600011584
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09417653099990275
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.09981259100004536
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.09412480399987544
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.09126595499947143
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.09554657900025632
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.09563005400013935
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.1511511349999637
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.10277634900012345
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 500,
+    "training_seconds": 0.10430943000028492
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.10232439700030227
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.1481105499997284
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1100,
+    "training_seconds": 0.09794877999956952
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09920871900067141
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.09578015400074946
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.1423341640002036
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 650,
+    "training_seconds": 0.11499639999965439
+  },
+  {
+    "seed": 2,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.11082716700002493
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.14787390299989056
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14485281900033442
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14772230600010516
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.14470549799989385
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14573589799965703
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.14776174500002526
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.1506328340001346
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09540926599947852
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 700,
+    "training_seconds": 0.08905819200026599
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.08872617299948615
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08834236600068834
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 500,
+    "training_seconds": 0.08724364299996523
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08785052599978371
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.15084414200009633
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 900,
+    "training_seconds": 0.09601894199931849
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10026741399997263
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.0995014310001352
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.149657156000103
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10402573600003961
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10569315500015364
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.10022586099967157
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.13731881600051565
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11317977699945914
+  },
+  {
+    "seed": 2,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.11347705400021368
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1577285679995839
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14332415999979276
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14463030499973684
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1535059359994193
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1440199170001506
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14627703200039832
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15235369299989543
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10409060399979353
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08850563099986175
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08884582700011379
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08851619899996876
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08960272600052122
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08991278299981786
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1459279279997645
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10527701999944838
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09573460800038447
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09746819100018911
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14007598900025187
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09902870299993083
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11191010699985782
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09972874899995077
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1357931530001224
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11187485499976901
+  },
+  {
+    "seed": 2,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11182682199978444
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.14612970199959818
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.14284730500003207
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.1405919549997634
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.1427353660001245
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 900,
+    "training_seconds": 0.14472618699983286
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.15254358800029877
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.14547485599996435
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08838740400005918
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.08870065700011764
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 800,
+    "training_seconds": 0.08766583700071351
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08703325399983441
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.08901178499945672
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.08587123199959024
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.14749947600012092
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.09679646299991873
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 550,
+    "training_seconds": 0.10036243200011086
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.09638702099982766
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.1399917570006437
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09708728400073596
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10067161699953431
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.1160589990004155
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.14979124199999205
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11192532899985963
+  },
+  {
+    "seed": 3,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.10981095800070761
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.15697681199981162
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1464854670002751
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1100,
+    "training_seconds": 0.13929323599950294
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.14114942900050664
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14587989699975878
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.14542559199981042
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.1421088930001133
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0904578190002212
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.0889938770005756
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08739948800030106
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08968269300021348
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 700,
+    "training_seconds": 0.09547610099980375
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.08932446499966318
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.14875505300005898
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1100,
+    "training_seconds": 0.09836494299997867
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10610036899925035
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 550,
+    "training_seconds": 0.09869383899967943
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 500,
+    "training_seconds": 0.1377952090006147
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09600181199948565
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0982690780001576
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 700,
+    "training_seconds": 0.09666990900041128
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.13546315400071762
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11018163900007494
+  },
+  {
+    "seed": 3,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10868052700061526
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15201273799993942
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.1458052490006594
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1424326670003211
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14482461199986574
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14620798699979787
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14955601099973137
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14789959500012628
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09314188200005447
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09316996500001551
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0890430360004757
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08918498000002728
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09040459800053213
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08917905100042844
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14393002399992838
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09953853099978005
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.10121876300036092
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09897027500028344
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.152847219999785
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10185227800047869
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1038476339999761
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10068333599974721
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1412476619998415
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11608240100031253
+  },
+  {
+    "seed": 3,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.11370457799966971
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.15239123299943458
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.14579928999955882
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.15895375099989906
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.18337117099963507
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 800,
+    "training_seconds": 0.142850367000392
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.14434223500029475
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.14746300600018003
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09011271999952442
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.10311575300056575
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 350,
+    "training_seconds": 0.1083842909993109
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09394169200004399
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 350,
+    "training_seconds": 0.1162822589994903
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 300,
+    "training_seconds": 0.10298198700002104
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.17872156799967343
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.11300084199956473
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 350,
+    "training_seconds": 0.1050978440007384
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.10737984200022765
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 200,
+    "training_seconds": 0.14343513200037705
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1000,
+    "training_seconds": 0.10059706599986384
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1050,
+    "training_seconds": 0.10259313299957284
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 100,
+    "training_seconds": 0.0967515430002095
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.13756258400007937
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1100,
+    "training_seconds": 0.11174409399973229
+  },
+  {
+    "seed": 4,
+    "train": 256,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 50,
+    "training_seconds": 0.11505740099983086
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.16219888900013757
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1465952370008381
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14774218999991717
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15207808500053943
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14609733500037692
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 250,
+    "training_seconds": 0.1485682309994445
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 750,
+    "training_seconds": 0.15029684599994653
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10354724700027873
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09183987699998397
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09150384099939401
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0951356539999324
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 450,
+    "training_seconds": 0.09675963500012585
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 700,
+    "training_seconds": 0.09561657699941861
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.15361829999983456
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.095879593999598
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10001094899962482
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 950,
+    "training_seconds": 0.094978806000654
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 550,
+    "training_seconds": 0.14122625900017738
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09494111999993038
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09601229399959266
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 150,
+    "training_seconds": 0.09797544199955155
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.13412400800007163
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10897195000052307
+  },
+  {
+    "seed": 4,
+    "train": 1024,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10639113100023678
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility",
+      "max_drawdown",
+      "trend",
+      "positive_fraction",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1467829809998875
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14446120299999166
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14188194700000167
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1466975220000677
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.16218634999950154
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.17605069000001095
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1153,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.16412932700040983
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0927073240000027
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.0932039330000407
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08992019400011486
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.08700641500036
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1050,
+    "training_seconds": 0.08891464899988932
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 14,
+    "parameters": 253,
+    "optimizer_steps": 1200,
+    "best_step": 1150,
+    "training_seconds": 0.09063128700017842
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "volatility",
+      "max_drawdown",
+      "tail_loss"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.14458588099932967
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09847467399958987
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "max_drawdown"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1033510009992824
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "tail_loss"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.12301170400041883
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "trend",
+      "positive_fraction"
+    ],
+    "hidden": 64,
+    "parameters": 1283,
+    "optimizer_steps": 1200,
+    "best_step": 1050,
+    "training_seconds": 0.16337479100002383
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.09999844000049052
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "trend"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10063710200029163
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "positive_fraction"
+    ],
+    "hidden": 24,
+    "parameters": 433,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10058238900001015
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "shared",
+    "tasks": [
+      "mean",
+      "volatility"
+    ],
+    "hidden": 64,
+    "parameters": 1218,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.138677719000043
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "mean"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.10989817599966045
+  },
+  {
+    "seed": 4,
+    "train": 4096,
+    "kind": "independent",
+    "tasks": [
+      "volatility"
+    ],
+    "hidden": 34,
+    "parameters": 613,
+    "optimizer_steps": 1200,
+    "best_step": 1200,
+    "training_seconds": 0.1088716790000035
+  }
+]

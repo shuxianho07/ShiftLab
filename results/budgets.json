@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 0,
+    "method": "independent_mlp",
+    "hidden": 64,
+    "parameters": 6918,
+    "optimizer_steps": 7200,
+    "training_seconds": 0.9148370550001346
+  },
+  {
+    "seed": 0,
+    "method": "matched_independent_mlp",
+    "hidden": 14,
+    "parameters": 1518,
+    "optimizer_steps": 7200,
+    "training_seconds": 0.5428237390005961
+  },
+  {
+    "seed": 0,
+    "method": "shared_mlp",
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "training_seconds": 0.16562544199950935
+  },
+  {
+    "seed": 1,
+    "method": "independent_mlp",
+    "hidden": 64,
+    "parameters": 6918,
+    "optimizer_steps": 7200,
+    "training_seconds": 0.8855742400000963
+  },
+  {
+    "seed": 1,
+    "method": "matched_independent_mlp",
+    "hidden": 14,
+    "parameters": 1518,
+    "optimizer_steps": 7200,
+    "training_seconds": 0.5448967900001662
+  },
+  {
+    "seed": 1,
+    "method": "shared_mlp",
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "training_seconds": 0.15781739100020786
+  },
+  {
+    "seed": 2,
+    "method": "independent_mlp",
+    "hidden": 64,
+    "parameters": 6918,
+    "optimizer_steps": 7200,
+    "training_seconds": 0.9636133009998957
+  },
+  {
+    "seed": 2,
+    "method": "matched_independent_mlp",
+    "hidden": 14,
+    "parameters": 1518,
+    "optimizer_steps": 7200,
+    "training_seconds": 0.6376267470004677
+  },
+  {
+    "seed": 2,
+    "method": "shared_mlp",
+    "hidden": 64,
+    "parameters": 1478,
+    "optimizer_steps": 1200,
+    "training_seconds": 0.19068810399949143
+  }
+]

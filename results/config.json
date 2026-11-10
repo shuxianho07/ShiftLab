@@ -1,0 +1,14 @@
+{
+  "output": "results",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "train": 4096,
+  "test": 2048,
+  "width": 16,
+  "hidden": 64,
+  "steps": 1200,
+  "validation": 1024
+}
